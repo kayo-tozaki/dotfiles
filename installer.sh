@@ -39,6 +39,7 @@ git clone https://github.com/kayo-tozaki/dotfiles.git ~/dotfiles
 cp -Rf ~/dotfiles/.* ~/
 
 # prezto
+chmod +x ~/dotfiles/prezto.sh
 zsh ~/dotfiles/prezto.sh
 }
 
