@@ -12,7 +12,7 @@ function Linux () {
 
 function RedHat () {
  case "`cat /etc/redhat-release`" in
-  *"CentOS"* ) echo "CentOS" ;;
+  *"CentOS"* ) CentOS ;;
   * ) echo "none RedHat OS" ;;
  esac
 }
@@ -36,7 +36,10 @@ cd ~
  
 # clone dotfiles
 git clone https://github.com/kayo-tozaki/dotfiles.git ~/dotfiles
-cp -Rf ~/dotfiles/.* ~/
+cp -f ~/dotfiles/.g* ~/
+cp -Rf ~/dotfiles/.v* ~/
+# cp -f ~/dotfiles/.z* ~/
+
 
 # prezto
 chmod +x ~/dotfiles/prezto.sh
