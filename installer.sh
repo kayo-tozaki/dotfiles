@@ -40,9 +40,8 @@ cp -Rf ~/dotfiles/.* ~/
 
 # prezto
 zsh ~/dotfiles/prezto.sh
-
 }
-/
+
 main
 
 
