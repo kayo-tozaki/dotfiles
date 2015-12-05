@@ -44,6 +44,9 @@ cp -Rf ~/dotfiles/.v* ~/
 # prezto
 chmod +x ~/dotfiles/prezto.sh
 zsh ~/dotfiles/prezto.sh
+
+# NeoBundle 
+
 }
 
 main
