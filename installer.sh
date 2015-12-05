@@ -35,7 +35,7 @@ cd ~
  esac
  
 # clone dotfiles
-git clone https://github.com/kayo-tozaki/dotfiles.git ~/dotfiles
+git clone --recursive https://github.com/kayo-tozaki/dotfiles.git ~/dotfiles
 cp -f ~/dotfiles/.g* ~/
 cp -Rf ~/dotfiles/.v* ~/
 # cp -f ~/dotfiles/.z* ~/
@@ -45,9 +45,10 @@ cp -Rf ~/dotfiles/.v* ~/
 chmod +x ~/dotfiles/prezto.sh
 zsh ~/dotfiles/prezto.sh
 
-# NeoBundle 
-mkdir -p ~/.vim/bundle
-git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+# # NeoBundle 
+# mkdir -p ~/.vim/bundle
+# git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+
 }
 
 main
