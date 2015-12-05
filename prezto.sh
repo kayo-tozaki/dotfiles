@@ -5,9 +5,9 @@ for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^README.md(.N); do
    ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}" 
 done
 
-\cp -f ~/dotfiles/.zpreztorc ~/.zprezto/runcoms/.zpreztorc
-\cp -f ~/dotfiles/.zprofile ~/.zprezto/runcoms/.zprofile
-\cp -f ~/dotfiles/.zshenv ~/.zprezto/runcoms/.zshenv
-\cp -f ~/dotfiles/.zshrc ~/.zprezto/runcoms/.zshrc
+\cp -f ~/dotfiles/.zpreztorc ~/.zprezto/runcoms/zpreztorc
+\cp -f ~/dotfiles/.zprofile ~/.zprezto/runcoms/zprofile
+\cp -f ~/dotfiles/.zshenv ~/.zprezto/runcoms/zshenv
+\cp -f ~/dotfiles/.zshrc ~/.zprezto/runcoms/zshrc
 
 chsh -s /bin/zsh 
