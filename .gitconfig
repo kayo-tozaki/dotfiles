@@ -6,12 +6,10 @@
 [https]
  #       proxy = cache.ccs.kogakuin.ac.jp:8080
 [core]
-	excludesfile = /Users/natsudama/.gitignore
+	excludesfile = ~/.gitignore
 [filter "lfs"]
 	clean = git-lfs clean %f
 	smudge = git-lfs smudge %f
 	required = true
 [alias]
     tree = log --graph --pretty='format:%C(yellow)%h%Creset %s %Cgreen(%an)%Creset %Cred%d%Creset'
-[http]
-	postBuffer = 524288000
