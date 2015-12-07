@@ -5,6 +5,8 @@ set nocompatible
 
 if has('vim_starting')
  set runtimepath+=~/.vim/bundle/neobundle.vim
+else
+  NeoBundleInstall
 endif 
 
 " NeoBundle 初期化

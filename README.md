@@ -11,7 +11,7 @@
 
 ## How to install 
 
-please type this command ↓
+please type this command at you want to install user. ↓
 
 ```shell
 $ bash -c "$(curl -L http://naccent.tk/installer.sh)"
