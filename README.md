@@ -11,17 +11,17 @@
 
 ## How to install 
 
-please type this command at you want to install user. ↓
+please type this command at you want to install user. 
 
 ```shell
-$ bash -c "$(curl -L http://naccent.tk/installer.sh)"
+$ bash -c "$(curl -L https://raw.githubusercontent.com/kayo-tozaki/dotfiles/master/installer.sh)"
 ```
 
 after few seconds, please insert your account's password for your terminal.
 That will change your login shell.
 
 ## Caution
-Only can install OS/Dist is ↓
+Only can install OS/Dist is
  - MacOS 
  - Ubuntu
  - CentOS
@@ -30,6 +30,3 @@ Only can install OS/Dist is ↓
  - Mac OS X El Capitan
  - Ubuntu 14.10 LTS for vagrant 
  - CentOS7 with vagrant 
-
-
-

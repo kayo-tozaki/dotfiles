@@ -1,3 +1,4 @@
+# Install packages 
 function ubuntu () {
   sudo apt-get -y install git vim zsh
 }
@@ -21,10 +22,9 @@ function CentOS () {
   sudo yum install -y git zsh vim
 }
 
+# Main
 function main () {
-
 cd ~
-
 # judge Distribution
  OS=`uname -a`
  case "$OS" in
@@ -40,14 +40,14 @@ cp -f ~/dotfiles/.g* ~/
 cp -Rf ~/dotfiles/.v* ~/
 # cp -f ~/dotfiles/.z* ~/
 
-
-# prezto
+# start prezto.sh
 chmod +x ~/dotfiles/prezto.sh
 zsh ~/dotfiles/prezto.sh
 
-# NeoBundle 
+# Install NeoBundle 
 mkdir -p ~/.vim/bundle
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+vim +":NeoBundleInstall" +:q
 
 }
 

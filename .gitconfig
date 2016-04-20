@@ -4,7 +4,7 @@
 [http]
 #        proxy = cache.ccs.kogakuin.ac.jp:8080
 [https]
- #       proxy = cache.ccs.kogakuin.ac.jp:8080
+#        proxy = cache.ccs.kogakuin.ac.jp:8080
 [core]
 	excludesfile = ~/.gitignore
 [filter "lfs"]

@@ -1,3 +1,5 @@
+# prezto.sh
+# configure prezto files and chenge shells
 git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 setopt EXTENDED_GLOB
 
